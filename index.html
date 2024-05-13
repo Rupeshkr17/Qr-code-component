@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <style>
+    *{
+      font-family: Outfit;
+      margin: 0;
+      padding: 0;
+    }
+    .outer{
+      background-color: hsl(220, 15%, 55%);
+      width: 200vh;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .inner{
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 21rem;
+      min-height: 30rem;
+      background-color: white;
+    }
+    .qrimg img {
+      border-radius: 10px;
+      /* padding: 10px; */
+      width: 19rem;
+      min-height: 19rem;
+    }
+    .comment {
+      font-weight: 700;
+      padding: 20px;
+      font-size: 20px;
+      text-align: center;
+    }
+    .para {
+      color: hsl(220, 15%, 55%);
+      font-weight: 400;
+      text-align: center;
+      font-size: 15px;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">
+      <div class="qrimg">
+        <img src="/qr-code-component-main/images/image-qr-code.png">
+      </div>
+      <div class="comment">
+        Improve your front-end skills by building projects
+      </div>
+      <div class="para">
+        Scan the QR code to visit Frontend Mentor and take your coding skillsto the next level
+      </div>
+    </div>
+  </div>
+</body>
+</html>
